@@ -1,0 +1,66 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+   <body>
+<DIV style="position: absolute;font-size:24pt ; top:1px; left:1px; width:1026px; height:100px ;background-color:008080"
+<table>
+<tr>
+<td><p><h1>Sophisticated city helpline</h1></p></td>
+</tr>
+
+
+<tr style="position: absolute; top:1px; left:700px; width:1026px; height:100px">
+<td>User Name</td>
+</tr>
+<tr style="position: absolute; top:1px; left:850px; width:1026px; height:100px"> 
+<td>Password</td>
+</tr>
+<tr style="position: absolute; top:20px; left:700px; width:1026px; height:100px ">
+<td><input type="text" name="email" ></td>
+<td><input type="password" name="pass" ></td>
+</tr>
+
+<tr>
+<td style="position: absolute; top:45px; left:700px; width:1026px; height:100px"><input type="button" value="Log In" onlick="main.html"></td>
+<td style="position: absolute; top:45px; left:850px; width:1026px; height:100px"><input type="button" value="cancel" onclick="cancel"></td>
+</tr>
+</table>
+</div>
+
+<DIV style="position: absolute; top:160px; left:100px; width:200px; height:400px"><h3>Select the blood type</h3>
+<a href="agroup.html"><img STYLE="position:absolute;  TOP:70px; LEFT:5px; WIDTH:50px; HEIGHT:50px" SRC="C:\Users\NAVI\Documents\NetBeansProjects\sch\web\WEB-INF" ></a>
+<a href="a1-group.html"><img STYLE="position:absolute; TOP:90px; LEFT:55px; WIDTH:50px; HEIGHT:50px" src="a1-.png" </a>
+<a href="b-group.html"><img STYLE="position:absolute; TOP:70px; LEFT:110px; WIDTH:50px; HEIGHT:50px" src="b-.png" alt="b-"></a> 
+<a href="b+group.html"><img STYLE="position:absolute; TOP:120px; LEFT:5px; WIDTH:50px; HEIGHT:50px" src="b+.png" alt="b+"></a> 
+<a href="o-group.html"><img STYLE="position:absolute; TOP:140px; LEFT:58px; WIDTH:50px; HEIGHT:50px" src="o-.png" alt="o-"></a> 
+<a href="o+group.html"><img STYLE="position:absolute; TOP:120px; LEFT:110px; WIDTH:50px; HEIGHT:50px" src="o+.png" alt="o+"></a> 
+</div>
+<DIV style="position: absolute; top:160px; left:400px; width:300px; height:400px"><h3>Shortest route</h3>
+
+<p>
+From Location
+<select name="From">
+<option>select location</option>
+<option>railway station</option>
+<option>Old busstand</option>
+</select>
+</p>
+<p>
+To Location
+<select name="To">
+<option>select location</option>
+<option>railway station</option>
+<option>Old busstand</option>
+</select>
+</p>
+</body>
+    </body>
+</html>
